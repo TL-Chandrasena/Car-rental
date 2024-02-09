@@ -1,0 +1,88 @@
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.create-container-info {
+  color: rgb(1, 4, 5);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0 16px;
+  background-color: rgba(240, 248, 255, 0.6);
+  border: 2px solid white;
+}
+
+.create-container-info .font-weight-bold-title {
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(94, 138, 151);
+}
+
+.create-container-info h5 {
+  text-align: center;
+  color: rgb(61, 106, 120);
+}
+
+.create-container-info form {
+  width: 100%;
+}
+
+.create-container-info form label {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.create-container-info form input {
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.create-container-info input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.create-container-info form textarea {
+  width: 100%;
+  height: 60px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+  background-color: whitesmoke;
+  resize: none;
+}
+
+.create-container-info select {
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.btn-create-container .create-button {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btn-create-container {
+  text-align: center;
+}

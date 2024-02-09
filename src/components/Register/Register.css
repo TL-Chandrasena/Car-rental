@@ -1,0 +1,74 @@
+.register-box {
+  color: rgb(61, 106, 120);
+  width: 420px;
+  min-height: 330px;
+  padding: 0 16px;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.6);
+  border: 2px solid white;
+}
+
+.register-box h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.register-box h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-box form {
+  width: 100%;
+}
+
+.register-box form label {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.register-box form input {
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn-register {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.register-box input[type="submit"]:hover {
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.15);
+  color: rgb(61, 106, 120);
+  text-decoration: underline;
+}
+
+.register-box input[type="submit"]:disabled {
+  background-color: #878787;
+  background-image: none;
+  color: #ccc;
+}
+
+.register-box p {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 15px;
+}
+
+.register-box p > a {
+  color: #49c1a2;
+}
+
+.alert-danger {
+  border: 1px solid rgb(120, 1, 1);
+}

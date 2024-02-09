@@ -1,0 +1,23 @@
+.btn-modal-cancel {
+  background-color: #3798b5;
+  color: white;
+}
+.btn-modal-delete {
+  background-color: #bb7e7e;
+  color: white;
+}
+.btn-modal-cancel:hover,
+.btn-modal-delete:hover {
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.15);
+  color: rgb(61, 106, 120);
+  text-decoration: underline;
+}
+
+.modal-body {
+  font-size: 18px;
+  text-align: center;
+}
+
+.modal-header .modal-title {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.content .home {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+}
+
+.home .main-sign img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}

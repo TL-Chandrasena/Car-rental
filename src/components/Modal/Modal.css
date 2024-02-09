@@ -1,0 +1,35 @@
+.btn-modal-confirm {
+  background-color: #83ab8f;
+  color: white;
+}
+.btn-modal-cancel {
+  background-color: #3798b5;
+  color: white;
+}
+
+.btn-modal-confirm:hover,
+.btn-modal-cancel:hover {
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.15);
+  color: rgb(61, 106, 120);
+  text-decoration: underline;
+}
+
+.calendar {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.modal-body {
+  font-size: 18px;
+  text-align: center;
+}
+
+.details .calendar label,
+.details .calendar input {
+  display: block;
+  text-align: left;
+}
+
+.modal-header .modal-title {
+  text-align: center;
+}

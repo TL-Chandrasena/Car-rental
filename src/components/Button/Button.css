@@ -1,0 +1,39 @@
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: #3798b5 !important;
+  border-color: #3798b5 !important;
+  color: white;
+  box-shadow: none !important;
+}
+
+.btn-default.focus,
+.btn-default:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn-default:hover {
+  text-decoration: underline;
+}
+
+.btn-red,
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active {
+  background-color: #bb7e7e !important;
+  border-color: #bb7e7e !important;
+  color: white;
+  box-shadow: none !important;
+}
+
+.btn-green,
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active {
+  background-color: #83ab8f !important;
+  border-color: #83ab8f !important;
+  color: white;
+  box-shadow: none !important;
+}

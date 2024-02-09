@@ -1,0 +1,114 @@
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.edit-container-info {
+  color: rgb(61, 106, 120);
+  width: 100%;
+  height: auto;
+  padding: 0 16px;
+  background-color: rgba(240, 248, 255, 0.6);
+  border: 2px solid white;
+}
+.edit-container-info .boat-img img {
+  min-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.edit-container-info .boat-img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.edit-container-info .font-weight-bold-title {
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(94, 138, 151);
+}
+
+.edit-container-info h4 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(61, 106, 120);
+}
+
+.edit-container-info form {
+  width: 100%;
+}
+
+.edit-container-info form label {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.edit-container-info form input {
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+  background-color: whitesmoke;
+}
+.edit-container-info input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.edit-container-info input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.edit-container-info form textarea {
+  width: 100%;
+  height: 60px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+  background-color: whitesmoke;
+  resize: none;
+}
+
+.edit-container-info select {
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.edit-container-info .btn-container .submit-btn {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.edit-container-info .btn-container {
+  text-align: center;
+}
+
+.invalid-field {
+  color: red;
+}
+
+.edit-container-info .font-weight-bold-title {
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(94, 138, 151);
+}

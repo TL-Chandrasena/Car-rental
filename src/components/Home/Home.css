@@ -1,0 +1,54 @@
+.home {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 0;
+}
+
+.home .main-sign {
+  position: relative;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.home .main-sign img {
+  height: 40%;
+  width: 40%;
+}
+.home .button-home {
+  position: relative;
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-color: #4c37b5;
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.home .button-home:hover {
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.15);
+  color: rgb(61, 106, 120);
+}
+
+.home .boat-list {
+  text-align: left;
+}
+
+.home .title {
+  color: rgb(53, 85, 119);
+  text-align: left;
+  padding-left: 20px;
+}

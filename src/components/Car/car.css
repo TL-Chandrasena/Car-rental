@@ -1,0 +1,67 @@
+.boat {
+  width: 100%;
+  margin: 20px 0;
+  border: 2px solid rgba(240, 248, 255);
+  background-color: rgba(240, 248, 255, 0.6);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.boat-img {
+  height: 100%;
+}
+
+.boat-img img {
+  max-width: 160px;
+  object-fit: cover;
+  margin: 0;
+  height: 100%;
+}
+
+.car-info {
+  width: 100%;
+}
+
+.car-info h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(94, 138, 151);
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.car-info p {
+  color: rgb(94, 138, 151);
+  margin-bottom: 6px;
+}
+
+.car-info span {
+  color: rgb(94, 138, 151);
+  font-weight: bolder;
+}
+
+.car .btn-details {
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-color: #3798b5;
+  padding: 6px 16px;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.car .btn-details:hover {
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.15);
+  color: rgb(61, 106, 120);
+  text-decoration: underline;
+}
